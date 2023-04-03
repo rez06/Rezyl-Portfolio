@@ -9,11 +9,11 @@ function changeNavbarColorOnScroll() {
 
 window.addEventListener("scroll", changeNavbarColorOnScroll);
 
-// function scrollToSection(e) {
-//   e.preventDefault();
-//   const section = document.querySelector('.main-container');
-//   section.scrollIntoView({ behavior: 'smooth' });
-// }
+function scrollToSection(e) {
+  e.preventDefault();
+  const section = document.querySelector('.main-container');
+  section.scrollIntoView({ behavior: 'smooth' });
+}
 
-// const scrollBtn = document.querySelector('#scrollBtn');
-// scrollBtn.addEventListener('click', scrollToSection);
+const scrollBtn = document.querySelector('#scrollBtn');
+scrollBtn.addEventListener('click', scrollToSection);

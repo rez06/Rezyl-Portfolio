@@ -1,0 +1,123 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-weight: 700;
+    background-color:#F7F7F7;
+    padding-top: 4.5rem;
+}
+
+.navbar{
+    transition: background-color 0.5s ease-in-out;
+}
+.navbar.scrolled {
+  background-color: rgba(41,27,158, 0.2);
+
+}   
+
+.navbar-brand {
+  margin-right: 0;
+  padding: 0;
+  font-size: 1.5rem;
+}
+
+.navbar a{
+    color: #291B9E;
+}
+
+.main-container{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tagline{
+background: #291B9E;
+background: linear-gradient(to right, #291B9E 0%, #F94DD4 100%);    
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-family: 'Mulish', sans-serif;
+}
+
+.btn-custom {
+  font-size: 1.5rem;
+  padding: 1rem 2.5rem;
+  margin-top: 3rem;
+  background-color: #291B9E;
+  border: none;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 700;
+  color:#F7F7F7;
+  letter-spacing: 0.1rem;
+  transition: all 0.5s ease-in-out;
+}
+
+.btn-custom:hover{
+    border:1px solid #291B9E;
+    color: #291B9E;
+}
+
+.btn-custom a{
+    color: #F7F7F7;
+}
+
+.btn-custom a:hover{
+    color: #291B9E;
+}
+
+.work-btn{
+  background-color: #291B9E;
+  border: none;
+  font-family: 'Mulish', sans-serif;
+  border-radius: 0.5rem;
+  transition: all 0.3s ease-in-out;
+  color:#F7F7F7;
+}
+
+.work-btn:hover{
+    border:2px solid #291B9E;
+    background-color: #F7F7F7;
+    
+}
+.work-btn a{
+    color:red;
+}
+
+.work a:hover{
+    color:#291B9E;
+}
+@media screen and (max-width: 768px) {
+  .tagline {
+    font-size: 3rem;
+  }
+}
+
+.sample-works{
+    border-radius: 1em;
+    padding: 1rem;
+    background-color: rgba(41,27,158,0.3);
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+    
+.sample-works:hover{
+    transform: translateY(-20px);
+}
+
+.about-container{
+  margin-top:5rem;
+}
+.profile-photo{
+ border-radius: 1em;
+  background-color: rgba(41,27,158,0.3);
+  padding:1em;
+}
+
+.contact-container{
+  margin-top:15rem;
+}
